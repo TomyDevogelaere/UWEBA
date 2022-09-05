@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPCorePipeline", "ASPCorePipeline\ASPCorePipeline.csproj", "{53B805BB-244F-43C9-9ACF-60430E2F3677}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureHeaders", "SecureHeaders\SecureHeaders.csproj", "{8367F721-FAB1-4A20-A49E-50FF8B36B134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureHeaders.Tests", "SecureHeaders.Tests\SecureHeaders.Tests.csproj", "{9E501C42-A38C-48D6-9538-5809FD1FBF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{53B805BB-244F-43C9-9ACF-60430E2F3677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B805BB-244F-43C9-9ACF-60430E2F3677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B805BB-244F-43C9-9ACF-60430E2F3677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8367F721-FAB1-4A20-A49E-50FF8B36B134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8367F721-FAB1-4A20-A49E-50FF8B36B134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8367F721-FAB1-4A20-A49E-50FF8B36B134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8367F721-FAB1-4A20-A49E-50FF8B36B134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E501C42-A38C-48D6-9538-5809FD1FBF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E501C42-A38C-48D6-9538-5809FD1FBF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E501C42-A38C-48D6-9538-5809FD1FBF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E501C42-A38C-48D6-9538-5809FD1FBF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
