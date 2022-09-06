@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ConfigLab.Models.Person>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div class="row">
+  @foreach (var item in Model)
+  {
+    <div class="col-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">@Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)</h5>
+          <p class="card-text">
+            @Html.DisplayFor(modelItem => item.Address.StreetName) @Html.DisplayFor(modelItem => item.Address.HouseNumber)
+            <br />
+            @Html.DisplayFor(modelItem => item.Address.PostalCode) @Html.DisplayFor(modelItem => item.Address.City)
+          </p>
+
+          <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+        </div>
+      </div>
+    </div>
+  }
+</div>
