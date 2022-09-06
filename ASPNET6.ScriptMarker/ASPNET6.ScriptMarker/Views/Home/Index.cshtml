@@ -1,0 +1,13 @@
+﻿@model MarkPdfViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Upload PDF</h2>
+
+<form asp-action="MarkPdf" asp-controller="Home" method="post" enctype="multipart/form-data">
+  <input type="text" asp-for="Name" />
+  <input type="file" asp-for="PostedFile" accept=".pdf" />
+
+  <input type="submit" value="Upload file" />
+</form>
