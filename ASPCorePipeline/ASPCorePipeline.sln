@@ -9,11 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureHeaders", "SecureHead
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureHeaders.Tests", "SecureHeaders.Tests\SecureHeaders.Tests.csproj", "{9E501C42-A38C-48D6-9538-5809FD1FBF79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterLab", "..\FilterLab\FilterLab.csproj", "{F7B42E33-44DC-4C3E-8FF3-01786C674162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterLab", "..\FilterLab\FilterLab.csproj", "{F7B42E33-44DC-4C3E-8FF3-01786C674162}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNET6.ScriptMarker", "..\ASPNET6.ScriptMarker\ASPNET6.ScriptMarker\ASPNET6.ScriptMarker.csproj", "{73756220-FDD0-4178-987A-D975E0C8D48B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatIsNewInMVC", "..\WhatIsNewInMVC\WhatIsNewInMVC\WhatIsNewInMVC.csproj", "{7C0BDFA1-4BF0-41FE-9E35-791A289E0356}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalAPIContacts", "MinimalAPIContacts\MinimalAPIContacts.csproj", "{F82B2C21-3A75-4F6B-B28C-003559C31A6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard", "..\SignalR\Dashboard\Dashboard.csproj", "{9DC51634-6F46-44A7-98F4-78ABD8B1896B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPlace.Client", "PizzaPlace\PizzaPlace.Client\PizzaPlace.Client.csproj", "{8DE544F9-254C-4C68-9BC7-DC910C85F93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPlace.Shared", "PizzaPlace.Shared\PizzaPlace.Shared.csproj", "{163075FD-29DD-4640-BC29-7AC0EDB541FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{7C0BDFA1-4BF0-41FE-9E35-791A289E0356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C0BDFA1-4BF0-41FE-9E35-791A289E0356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C0BDFA1-4BF0-41FE-9E35-791A289E0356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82B2C21-3A75-4F6B-B28C-003559C31A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82B2C21-3A75-4F6B-B28C-003559C31A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82B2C21-3A75-4F6B-B28C-003559C31A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82B2C21-3A75-4F6B-B28C-003559C31A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC51634-6F46-44A7-98F4-78ABD8B1896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC51634-6F46-44A7-98F4-78ABD8B1896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC51634-6F46-44A7-98F4-78ABD8B1896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC51634-6F46-44A7-98F4-78ABD8B1896B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE544F9-254C-4C68-9BC7-DC910C85F93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE544F9-254C-4C68-9BC7-DC910C85F93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE544F9-254C-4C68-9BC7-DC910C85F93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE544F9-254C-4C68-9BC7-DC910C85F93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

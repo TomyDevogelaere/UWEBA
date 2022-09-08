@@ -4,10 +4,11 @@
 }
 
 <h2>Upload PDF</h2>
-
+<img src="/images/devs.png" asp-render-base64="true" />
 <form asp-action="MarkPdf" asp-controller="Home" method="post" enctype="multipart/form-data">
   <input type="text" asp-for="Name" />
   <input type="file" asp-for="PostedFile" accept=".pdf" />
 
   <input type="submit" value="Upload file" />
 </form>
+

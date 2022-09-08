@@ -1,0 +1,43 @@
+﻿<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+    <div style="position: absolute; top: 0; right: 0;" id="toaster"></div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary" id="kittenStuck">Kitten stuck in tree!</button>
+            <button class="btn btn-primary" id="armedRobbery">Armed robbery</button>
+            <button class="btn btn-primary" id="crash">Big car crash</button>
+            <button class="btn btn-primary" id="fourHorsemen">Apocalypse imminent</button>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/signalr/dist/browser/signalr.min.js"></script>
+<script>
+    $(function () {
+        // Connect to GameHub
+        let hubUrl = '/emergencyHub';
+        let hubConnection = new signalR.HubConnectionBuilder()
+            .withUrl(hubUrl)
+            .build();
+        hubConnection.start();
+
+        $("#kittenStuck").on('click', e => {
+            hubConnection.invoke('GroupMessage', {group:'fireBrigade', message:`There's a kitten stuck in a tree!`});
+        });
+
+        $("#armedRobbery").on('click', e => {
+            hubConnection.invoke('GroupMessage', { group: 'police', message:`There's an armed robbery going on!`});
+        });
+
+        $("#crash").on('click', e => {
+            hubConnection.invoke('GroupMessage', { group:'police', message: `Someone crashed their car!`});
+            hubConnection.invoke('GroupMessage', {group:'ambulance', message: `Someone crashed their car!`});
+        });
+
+        $("#fourHorsemen").on('click', e => {
+            hubConnection.invoke('GroupMessage', 'fireBrigade', `The world is coming to an end!`);
+            hubConnection.invoke('GroupMessage', 'ambulance', `The world is coming to an end!`);
+            hubConnection.invoke('GroupMessage', 'police', `The world is coming to an end!`);
+        });
+    });
+</script>
