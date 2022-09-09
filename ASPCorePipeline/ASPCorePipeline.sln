@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalAPIContacts", "Minim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dashboard", "..\SignalR\Dashboard\Dashboard.csproj", "{9DC51634-6F46-44A7-98F4-78ABD8B1896B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPlace.Client", "PizzaPlace\PizzaPlace.Client\PizzaPlace.Client.csproj", "{8DE544F9-254C-4C68-9BC7-DC910C85F93A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaPlace.Client", "PizzaPlace\PizzaPlace.Client\PizzaPlace.Client.csproj", "{8DE544F9-254C-4C68-9BC7-DC910C85F93A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaPlace.Shared", "PizzaPlace.Shared\PizzaPlace.Shared.csproj", "{163075FD-29DD-4640-BC29-7AC0EDB541FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaPlace.Shared", "PizzaPlace.Shared\PizzaPlace.Shared.csproj", "{163075FD-29DD-4640-BC29-7AC0EDB541FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims", "Claims\Claims.csproj", "{BBF4A7FD-64A2-4FCF-BA16-570D003E299A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{163075FD-29DD-4640-BC29-7AC0EDB541FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF4A7FD-64A2-4FCF-BA16-570D003E299A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF4A7FD-64A2-4FCF-BA16-570D003E299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF4A7FD-64A2-4FCF-BA16-570D003E299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF4A7FD-64A2-4FCF-BA16-570D003E299A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
